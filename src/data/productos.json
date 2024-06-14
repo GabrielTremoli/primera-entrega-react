@@ -1,0 +1,68 @@
+[
+    {
+        "id":1,
+        "nombre": "Tablet",
+        "precio":49.99,
+        "imagen":"https://placeholder.pics/svg/150",
+        "descripcion": "Tablet comoda para llevar a todos lados con vos",
+        "categoria": {
+            "id":"movil",
+            "nombre":"movil"
+        }
+    },
+    {
+        "id":2,
+        "nombre":"notebook",
+        "precio":69.99,
+        "imagen":"https://placeholder.pics/svg/150",
+        "descripcion":"ideal para hacer tus trabajos desde donde quieras",
+        "categoria":{
+            "id":"movil",
+            "nombre":"movil"
+        }
+    },
+    {
+        "id":3,
+        "nombre":"pc de escritorio",
+        "precio": 119.99,
+        "imagen":"https://placeholder.pics/svg/150",
+        "descripcion":"ideal para trabajar o jugar desde la comodidad de tu casa",
+        "categoria":{
+            "id":"electrodomestico",
+            "nombre":"electrodomestico"
+        }
+    },
+    {
+        "id":4,
+        "nombre": "celular plegable",
+        "precio": 110,
+        "imagen":"https://placeholder.pics/svg/150",
+        "descripcion":"ademas de la ultima tecnologia permite plegarse para guardarlo en cualquier lado ",
+        "categoria":{
+            "id":"movil",
+            "nombre":"movil"
+        }
+    },
+    {
+        "id":5,
+        "nombre":"celular",
+        "precio": 100,
+        "imagen":"https://placeholder.pics/svg/150",
+        "descripcion":"procesador y camara de ultima tecnologia ",
+        "categoria":{
+            "id":"movil",
+            "nombre":"movil"
+        }
+    },
+    {
+        "id":6,
+        "nombre":"smartwatch",
+        "precio": 129.99,
+        "imagen":"https://placeholder.pics/svg/150",
+        "descripcion":"integrado con monitoreo de salud y seguidor de sueño para que cuides de tu salud",
+        "categoria": {
+            "id":"accesorio",
+            "nombre":"accesorio"
+        }
+    }
+]

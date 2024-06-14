@@ -1,13 +1,14 @@
 import React from 'react'
-import { NavBar } from './NavBar'
+import { NavBar } from '../NavBar'
 import { Carrito } from './Carrito'
+import { link } from 'react-router-dom'
 
 export const header = () => {
     return (
         <header className='header'>
-            <h1>Ecoder</h1>
+            <link to="/"><h1>Ecoder</h1></link>
             <NavBar />
-            <Carrito />
+            <Carrito numerito={props.numerito}/>
         </header>
     )
 }

@@ -1,0 +1,14 @@
+[
+    {
+        "id":"movil",
+        "nombre":"Movil"
+    },
+    {
+        "id":"electrodomestico",
+        "nombre":"Electrodomestico"
+    },
+    {
+        "id":"accesorios",
+        "nombre":"Accesorios"
+    }
+]
