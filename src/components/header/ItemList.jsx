@@ -1,25 +1,16 @@
 import React from "react";
-import { Item } from "./Item"
+import { Item } from './Item'
+export const ItemList = ({ productos }) => {
 
-const ItemDetailContainer = () => {
-
-    let { itemId } = useParams();
-    let [producto, setProducto] = useState(undefined);
-    let error = false;
-
-    useEffect(() => {
-        setTimeout(() => {
-            setProducto(data.find((prod) => prod.id === parseInt(itemId)));
-        }, 1000);
-    }, [itemId]);
-
-    if (producto) {
-        return <ItemDetail producto={producto} />
-    } else if (error) {
-        return <div>Hubo un error</div>
-    } else {
-        return <div>Cargando productos...</div>
-    }
+    return (
+        <div className="productos-grilla">
+            {
+                productos.length > 0 ?
+                    productos.map(producto => {
+                        return <Item key={producto.id} producto={producto} />
+                    })
+                    : <p>Cargando productos...</p>
+            }
+        </div>
+    )
 }
-
-export default ItemDetailContainer

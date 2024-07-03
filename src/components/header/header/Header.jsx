@@ -1,13 +1,13 @@
 import React from 'react'
-import { NavBar } from '../NavBar'
-import { Carrito } from './Carrito'
-import { link } from 'react-router-dom'
-
+import { NavBar } from './NavBar.jsx'
+import { Link } from 'react-router-dom'
+import { CartWidget } from './CartWidget.jsx'
 export const header = () => {
-    return (
-        <header className='header'>
-            <link to="/"><h1>Ecoder</h1></link>
+    return(
+        <header className="header">
+            <Link rel="/"><h1>Ecoder</h1></Link> 
             <NavBar />
+            <CartWidget />
             <Carrito numerito={props.numerito}/>
         </header>
     )
